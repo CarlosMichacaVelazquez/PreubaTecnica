@@ -1,0 +1,45 @@
+{
+	"name": "AzureSqlTable4",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "id_company",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "company_name",
+				"type": "varchar"
+			},
+			{
+				"name": "web",
+				"type": "varchar"
+			},
+			{
+				"name": "state",
+				"type": "varchar"
+			},
+			{
+				"name": "zip",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "person_id",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "company"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

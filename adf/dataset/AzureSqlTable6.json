@@ -1,0 +1,17 @@
+{
+	"name": "AzureSqlTable6",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "address_person"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

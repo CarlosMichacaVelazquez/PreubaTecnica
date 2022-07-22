@@ -1,0 +1,9 @@
+{
+	"name": "adf-tecnica01",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ce160777-8cf6-4992-a679-73edcbe4a1bb",
+		"tenantId": "43555e66-f565-4bd1-bc32-4546881d3070"
+	}
+}

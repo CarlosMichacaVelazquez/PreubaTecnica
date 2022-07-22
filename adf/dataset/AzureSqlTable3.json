@@ -1,0 +1,42 @@
+{
+	"name": "AzureSqlTable3",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "id_information",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "phone1",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "phone2",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "email",
+				"type": "varchar"
+			},
+			{
+				"name": "person_id",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "person_information"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
